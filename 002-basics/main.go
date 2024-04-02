@@ -11,11 +11,9 @@ type human interface {
 }
 
 func (p *person) speak() {
-	fmt.Println(" speak() is calling")
 	fmt.Println("person name is ", p.name)
 }
 func saySomething(h human) {
-	fmt.Println(" this is the saysomething() calling")
 	h.speak()
 }
 
