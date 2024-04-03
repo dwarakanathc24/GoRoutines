@@ -26,5 +26,6 @@ func main() {
 
 	wg.Wait()
 	fmt.Println("exit of the program")
+	fmt.Println("exit of the program")
 
 }
